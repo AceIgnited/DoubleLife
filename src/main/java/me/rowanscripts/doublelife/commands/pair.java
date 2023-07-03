@@ -18,7 +18,7 @@ public class pair {
 
         Player playerOne = Bukkit.getPlayer(args[1]);
         Player playerTwo = Bukkit.getPlayer(args[2]);
-        int lives = 3;
+        int lives = 10;
         if (args.length == 4) {
             try {
                 lives = Integer.parseInt(args[3]);
